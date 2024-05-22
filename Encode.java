@@ -10,22 +10,47 @@ public class Encode{
   public static String grid(String keyword, String message){
 
     String result = "";
-    char[][] square = new char[6][6];
-    char[] messageChars = message.toCharArray();
+
+    keyword = keyword.toLowerCase();
+    message = message.toLowerCase();
+
+    char[] keywordChars = keyword.toCharArray();
 
 
     Map<Character,Integer> map = new HashMap<>();
 
-    String newMessage = "";
-    for(int i = 0; i < message.length(); i++){
-      if(!map.containsKey(messageChars[i]))
+    String newkeyword = "";
+    for(int i = 0; i < keyword.length(); i++){
+      if(!map.containsKey(keywordChars[i]))
       {
-        newMessage += messageChars[i];
-        map.put(messageChars[i], 1);
+        newkeyword += keywordChars[i];
+        map.put(keywordChars[i], 1);
       }
     }
 
-    System.out.println(newMessage);
+    // System.out.println(newkeyword);
+
+
+    String alpha = "abcdefghijklmnopqrstuvwxyz0123456789";
+    char[] alphaChars = alpha.toCharArray();
+    String newAlpha = "";
+
+    for(int i = 0; i < alpha.length(); i++){
+      if(!map.containsKey(alphaChars[i])){
+        newAlpha += alphaChars[i];
+      }
+    }
+
+    String grid = newkeyword + newAlpha;
+    String key = "adfgvx";
+
+    // System.out.println(grid);
+
+    int pos = 0;
+    for(int m = 0; m < message.length(); m++){
+      pos = grid.indexOf(message.substring(m,m+1));
+      result += "" + key.charAt(pos/6) + key.charAt(pos%6);
+    }
 
 
 
