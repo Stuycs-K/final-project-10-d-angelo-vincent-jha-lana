@@ -5,9 +5,9 @@ second keyword: column
 encoded_message will have spaces
 
 first step: split the message by spaces, which represents
-each column into an array - method: getcolumns
+each column into an array -done
 
-copy into a diffferent array in the right order - method: rearrangecolumns
+copy into a diffferent array in the right order - method: rearrangecolumns - done
 
 iterate thro the array and get each pair and put into another array - method: getpairs
 
@@ -19,9 +19,37 @@ return string
 '''
 '''Takes arguments from decode and returns the final message'''
 def decode(keyword1,keyword2,encoded_message):
-    #
+    array_of_columns = encode_message.split()
+    arranged_columns = rearrange_columns(array_of_columns, keyword2)
+    pairs = get_pairs(arranged_columns)
     return("hi")
-    
+
+def rearrange_columns(original_columns, keyword2):
+    alphabetized = ''.join(sorted(keyword))
+
+    position_array=[]
+    for a in alphabetized:
+        count = 0
+        counter = True
+        while(counter){
+            if a == keyword2[count]:
+                position_array.append(count)
+                counter = False
+            else:
+                count+=1
+        }
+
+    rearranged = []
+    for i in range(len(position_array)):
+        rearranged[position_array[i]]= original_columns[i]
+    return rearranged
+
+def get_pairs(arranged_columns):
+    pairs = []
+    #first will be longest
+    return pairs
+
+
 if len(sys.argv) == 4:
     if sys.argv[1] == "decode":
         keyword1 = sys.argv[2]
