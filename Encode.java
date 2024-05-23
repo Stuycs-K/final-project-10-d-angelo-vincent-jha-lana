@@ -4,10 +4,10 @@ public class Encode{
 //args[0] is the first keyword, args[1] is the second keyword, args[2] is the desired message
   public static void main(String[] args) {
 
-    String part1 = grid(args[0], args[2]);
+    secondstep( args[1], firststep(args[0], args[2]));
   }
 
-  public static String grid(String keyword, String message){
+  public static String firststep(String keyword, String message){
 
     String result = "";
 
@@ -51,14 +51,25 @@ public class Encode{
       pos = grid.indexOf(message.substring(m,m+1));
       result += "" + key.charAt(pos/6) + key.charAt(pos%6);
     }
-
-
-
-
-
-
-
     return result;
+
+  }
+
+  public static void secondstep(String keyword, String part1){
+    Map<Character,String> treeMap = new TreeMap<>();
+
+    for(int i = 0; i < keyword.length(); i++){
+      String temp = "";
+      for(int j = i; j < part1.length(); j+=keyword.length()){
+        temp += ""+part1.charAt(j);
+      }
+      treeMap.put(keyword.charAt(i), temp);
+    }
+
+    for(Map.Entry<Character, String> entry : treeMap.entrySet()){
+      System.out.print(entry.getValue().toUpperCase() + " ");
+    }
+    System.out.println();
 
   }
 }
