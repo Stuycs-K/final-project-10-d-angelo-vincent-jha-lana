@@ -56,17 +56,20 @@ public class Encode{
   }
 
   public static void secondstep(String keyword, String part1){
-    Map<Character,String> treeMap = new TreeMap<>();
+    Map<String,String> treeMap = new TreeMap<>();
 
     for(int i = 0; i < keyword.length(); i++){
       String temp = "";
       for(int j = i; j < part1.length(); j+=keyword.length()){
         temp += ""+part1.charAt(j);
       }
-      treeMap.put(keyword.charAt(i), temp);
+      String tempKey = ""+keyword.charAt(i);
+      if(treeMap.containsKey(""+keyword.charAt(i)))tempKey = ""+keyword.charAt(i)+i;
+      treeMap.put(tempKey, temp);
+      //System.out.println(tempKey);
     }
 
-    for(Map.Entry<Character, String> entry : treeMap.entrySet()){
+    for(Map.Entry<String, String> entry : treeMap.entrySet()){
       System.out.print(entry.getValue().toUpperCase() + " ");
     }
     System.out.println();
