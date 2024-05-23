@@ -1,3 +1,4 @@
+import sys
 '''
 Decode Process:
 first keyword: polybius square
@@ -19,25 +20,27 @@ return string
 '''
 '''Takes arguments from decode and returns the final message'''
 def decode(keyword1,keyword2,encoded_message):
-    array_of_columns = encode_message.split()
+    array_of_columns = encoded_message.split()
     arranged_columns = rearrange_columns(array_of_columns, keyword2)
-    pairs = get_pairs(arranged_columns)
-    return("hi")
+    return(arranged_columns)
+    # pairs = get_pairs(arranged_columns)
+    # return("hi")
 
 def rearrange_columns(original_columns, keyword2):
-    alphabetized = ''.join(sorted(keyword))
-
+    alphabetized = ''.join(sorted(keyword2))
+    print(alphabetized)
     position_array=[]
+    
     for a in alphabetized:
         count = 0
         counter = True
-        while(counter){
+        while counter==True:
             if a == keyword2[count]:
                 position_array.append(count)
                 counter = False
             else:
                 count+=1
-        }
+    print(position_array)
 
     rearranged = []
     for i in range(len(position_array)):
@@ -62,7 +65,7 @@ def get_pairs(arranged_columns):
     return pairs
 
 
-if len(sys.argv) == 4:
+if len(sys.argv) == 5:
     if sys.argv[1] == "decode":
         keyword1 = sys.argv[2]
         keyword2 = sys.argv[3]
