@@ -1,10 +1,10 @@
 # Work Log
 
-## GROUP MEMBER 1
+## Vincent D'Angelo
 
-### date x
+### 5/22
 
-info
+Today I wrote the code for encoding a message using the ADFGVX cipher. The encoding algorithm requires the user to input their original message and two separate keys, which are used at different points in the process. There is still some testing I'd like to do with the code and some features I'm thinking of implementing (like exceptions), so I haven't merged the branch with main just yet. 
 
 ### date y
 
