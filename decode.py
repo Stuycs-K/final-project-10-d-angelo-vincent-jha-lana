@@ -46,7 +46,19 @@ def rearrange_columns(original_columns, keyword2):
 
 def get_pairs(arranged_columns):
     pairs = []
-    #first will be longest
+    length = len(arranged_columns[0])
+    string_of_pairs = ""
+    for i in range(length):
+        for j in range(len(arranged_columns)):
+            if i == length-1:
+                 #last row
+                if(len(arranged_columns[j])==length):
+                    string_of_pairs+= arranged_columns[j][i]
+            else:
+                string_of_pairs+= arranged_columns[j][i]
+    #splitting long string into array of pairs
+    for x in range(0,len(string_of_pairs),2):
+        pairs[x/2]=string_of_pairs[x:x+2]
     return pairs
 
 
