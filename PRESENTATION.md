@@ -1,5 +1,5 @@
 # ADFGVX Cipher
 ## Part One: History
-![alt text](https://www.google.com/url?sa=i&url=http%3A%2F%2Fcrypto.over-blog.fr%2Farticle-23182596.html&psig=AOvVaw0t_bmbC9WfeCsWCXrrNrFX&ust=1716664150241000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCKi61rj-poYDFQAAAAAdAAAAABAE "Fritz Nebel")
-![alt text](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.lepoint.fr%2Fhistoire%2Fservices-secrets-francais-la-victoire-en-decryptant-20-12-2016-2091744_1615.php&psig=AOvVaw0t_bmbC9WfeCsWCXrrNrFX&ust=1716664150241000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCKi61rj-poYDFQAAAAAdAAAAABAJ "Georges Painvin")
+![alt text](http://idata.over-blog.com/2/21/11/03/Nebel.jpg "Fritz Nebel")
+![alt text](https://static-images.lpnt.fr/cd-cw1618/images/2016/12/20/6475173lpw-6475235-article-jpg_3972919_660x287.jpg "Georges Painvin")
 ### A long time ago, there was a war.
