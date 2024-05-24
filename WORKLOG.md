@@ -4,11 +4,11 @@
 
 ### 5/22
 
-Today I wrote the code for encoding a message using the ADFGVX cipher. The encoding algorithm requires the user to input their original message and two separate keys, which are used at different points in the process. There is still some testing I'd like to do with the code and some features I'm thinking of implementing (like exceptions), so I haven't merged the branch with main just yet. 
+Today I wrote the code for encoding a message using the ADFGVX cipher. The encoding algorithm requires the user to input their original message and two separate keys, which are used at different points in the process. There is still some testing I'd like to do with the code and some features I'm thinking of implementing (like exceptions), so I haven't merged the branch with main just yet.
 
-### date y
+### 5/23
 
-info
+Today I fixed a bug with my encoding program where duplicate characters in the second keyword were getting deleted. This was because Java’s TreeMap class does not allow for duplicate keys, but I fixed the error by modifying the characters of the keyword so that none were the same. I also researched the cipher's history, particularly how it was originally used and the key people involved, all information I plan to include in our presentation. 
 
 
 ## Lana Jha
