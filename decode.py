@@ -1,4 +1,5 @@
 import sys
+import math
 '''
 Decode Process:
 first keyword: polybius square
@@ -68,19 +69,38 @@ def get_pairs(arranged_columns):
     return pairs
 
 def create_square(keyword1):
-    keyword = keyword1.replace(" ","").lower()#removes spaces from keyword
+    keyword = "".join(dict.fromkeys(keyword1.replace(" ","").lower()))#removes spaces from keyword and duplicated
+   
+
     total_string = "abcdefghijklmnopqrstuvwxyz0123456789"
-    polybius_square = [[0]*6]*6#creates a 6x6 double array
-    count = 0
-    for i in range(math.floor(len(keyword)/6)):#number of full rows the keyword will fill
-        for j in range(6):
-            polybius_square[i][j] = keyword[0]
-            count+=1
-    if count <len(keyword):
-        polybius_square[math.floor(len(keyword)/6)]
+    final_string = ""
+    for i in range(len(total_string)):
+        count = 0
+        for k in keyword:
+            if k == total_string[i]:
+                count+=1
+        if count <1:
+            final_string += total_string[i]
+   
+    #final_string has rest of alphabet
+    polybius_square = [""]*6#creates a 6x6 double array
+    for i in range(math.floor(len(keyword)/6)):
+        polybius_square[0] = keyword[0:6]
+    
+    mod = len(keyword) % 6
+    if mod != 0:
+        polybius_square[math.floor(len(keyword)/6)] = keyword[math.floor(len(keyword)/6)*6:]
+        polybius_square[math.floor(len(keyword)/6)] += final_string[0:6 - mod]
+    final_string = final_string[6-mod:]
 
+    final_rows=[]
+    #splitting final_string into array of 6's
+    for x in range(0,len(final_string),6):
+        final_rows.append(final_string[x:x+6])
+    for i in range(math.ceil(len(keyword)/6),6,1):
+        polybius_square[i] = final_rows[i-2]
 
-    return keyword
+    return polybius_square
 '''remove spaces
 make everything lower case
 total_string = 'abcdefghijklmnopqrstuvwxyz0123456789'
