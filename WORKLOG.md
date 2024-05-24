@@ -15,8 +15,8 @@ Today I fixed a bug with my encoding program where duplicate characters in the s
 
 ### 5/22
 
-Today, I reviewed the decoding of the ADFGVX cipher and coded the first half of it. The decoder requires the encrypted message and two separate keys, which are used at two points in the process. I coded the part that uses the second key. I need to test more extensively before merging with main.
+Today I reviewed the decoding of the ADFGVX cipher and coded the first half of it. The decoder requires the encrypted message and two separate keys, which are used at two points in the process. I coded the part that uses the second key. I need to test more extensively before merging with main.
 
-### date y
+### 5/23
 
-info
+Today I tested the functions I coded yesterday and fixed syntax/logic issues including 2D arrays, lists, and strings. I also started the second half of the decoder, which utilizes a polybius square, represented by a 2D array, and the first key. 
