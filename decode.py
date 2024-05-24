@@ -22,13 +22,14 @@ return string
 def decode(keyword1,keyword2,encoded_message):
     array_of_columns = encoded_message.split()
     arranged_columns = rearrange_columns(array_of_columns, keyword2)
-    return(arranged_columns)
-    # pairs = get_pairs(arranged_columns)
+    pairs = get_pairs(arranged_columns)
+    create_square(keyword1)
+    return(pairs)
     # return("hi")
 
 def rearrange_columns(original_columns, keyword2):
     alphabetized = ''.join(sorted(keyword2))
-    print(alphabetized)
+    # print(alphabetized)
     position_array=[]
     
     for a in alphabetized:
@@ -40,10 +41,11 @@ def rearrange_columns(original_columns, keyword2):
                 counter = False
             else:
                 count+=1
-    print(position_array)
+    # print(position_array)
 
-    rearranged = []
+    rearranged = ['empty']*len(position_array)
     for i in range(len(position_array)):
+        # print(i)
         rearranged[position_array[i]]= original_columns[i]
     return rearranged
 
@@ -61,9 +63,11 @@ def get_pairs(arranged_columns):
                 string_of_pairs+= arranged_columns[j][i]
     #splitting long string into array of pairs
     for x in range(0,len(string_of_pairs),2):
-        pairs[x/2]=string_of_pairs[x:x+2]
+        pairs.append(string_of_pairs[x:x+2])
+        
     return pairs
 
+def create_square
 
 if len(sys.argv) == 5:
     if sys.argv[1] == "decode":
