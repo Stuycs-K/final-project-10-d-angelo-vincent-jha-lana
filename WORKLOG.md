@@ -8,7 +8,11 @@ Today I wrote the code for encoding a message using the ADFGVX cipher. The encod
 
 ### 5/23
 
-Today I fixed a bug with my encoding program where duplicate characters in the second keyword were getting deleted. This was because Java’s TreeMap class does not allow for duplicate keys, but I fixed the error by modifying the characters of the keyword so that none were the same. I also researched the cipher's history, particularly how it was originally used and the key people involved, all information I plan to include in our presentation. 
+Today I fixed a bug with my encoding program where duplicate characters in the second keyword were getting deleted. This was because Java’s TreeMap class does not allow for duplicate keys, but I fixed the error by modifying the characters of the keyword so that none were the same. I also researched the cipher's history, particularly how it was originally used and the key people involved, all information I plan to include in our presentation.
+
+### 5/24
+
+Began PRESENTATION.md today. I entered a lot of the information about the historical context surrounding the cipher, and played around with markdown, of course. There are some other parts of the history that I want to include, but I'll add those later in the presentation. 
 
 
 ## Lana Jha
@@ -19,7 +23,7 @@ Today I reviewed the decoding of the ADFGVX cipher and coded the first half of i
 
 ### 5/23
 
-Today I tested the functions I coded yesterday and fixed syntax/logic issues including 2D arrays, lists, and strings. I also started the second half of the decoder, which utilizes a polybius square, represented by a 2D array, and the first key. 
+Today I tested the functions I coded yesterday and fixed syntax/logic issues including 2D arrays, lists, and strings. I also started the second half of the decoder, which utilizes a polybius square, represented by a 2D array, and the first key.
 
 ### 5/24
 
