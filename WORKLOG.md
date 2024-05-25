@@ -20,3 +20,7 @@ Today I reviewed the decoding of the ADFGVX cipher and coded the first half of i
 ### 5/23
 
 Today I tested the functions I coded yesterday and fixed syntax/logic issues including 2D arrays, lists, and strings. I also started the second half of the decoder, which utilizes a polybius square, represented by a 2D array, and the first key. 
+
+### 5/24
+
+Today I finished decode. I fixed my issues with the 2D array and instead used a 1D array to represent the polybius square. I did the second half of the decoder with the first key and the code can now succesfully return the original message.
