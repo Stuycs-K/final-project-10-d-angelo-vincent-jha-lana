@@ -25,7 +25,8 @@ def decode(keyword1,keyword2,encoded_message):
     arranged_columns = rearrange_columns(array_of_columns, keyword2)
     pairs = get_pairs(arranged_columns)
     polybius_square = create_square(keyword1)
-    return(polybius_square)
+    message = get_message(polybius_square,pairs)
+    return(message)
     # return("hi")
 
 def rearrange_columns(original_columns, keyword2):
@@ -101,18 +102,31 @@ def create_square(keyword1):
         polybius_square[i] = final_rows[i-2]
 
     return polybius_square
-'''remove spaces
-make everything lower case
-total_string = 'abcdefghijklmnopqrstuvwxyz0123456789'
-make double array
-iterate through rows adding the keyword first, keep count
 
-for loop thro the rest of the double array starting at that point and check in this loop, go thro the total_string adn add accordingly
-'''
+def get_message(square, pairs):
+    '''create list of rows,columns from pairs
+    get message  by looping'''
+    indexes = []
+    message = ""
+    for p in pairs:
+        indexes.append(str(convert(p[0]))+ str(convert(p[1])))
+    for i in indexes:
+        message+=square[int(i[0])][int(i[1])]
+    return message
 
-
-
-
+def convert(letter):
+    if letter == 'A':
+        return 0
+    elif letter == 'D':
+        return 1
+    elif letter == 'F':
+        return 2
+    elif letter == 'G':
+        return 3
+    elif letter == 'V':
+        return 4
+    elif letter == 'X':
+        return 5
 if len(sys.argv) == 5:
     if sys.argv[1] == "decode":
         keyword1 = sys.argv[2]
