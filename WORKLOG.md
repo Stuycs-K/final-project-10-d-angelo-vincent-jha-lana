@@ -12,7 +12,11 @@ Today I fixed a bug with my encoding program where duplicate characters in the s
 
 ### 5/24
 
-Began PRESENTATION.md today. I entered a lot of the information about the historical context surrounding the cipher, and played around with markdown, of course. There are some other parts of the history that I want to include, but I'll add those later in the presentation. 
+Began PRESENTATION.md today. I entered a lot of the information about the historical context surrounding the cipher, and played around with markdown, of course. There are some other parts of the history that I want to include, but I'll add those later in the presentation.
+
+### 5/27
+
+Today I continued my work on PRESENTATION.md. I explained how one uses the ADFGVX cipher to encode messages using images, tables, and footnotes, among another things. I also included a little bit more about the history the cipher in my explanation.
 
 
 ## Lana Jha
