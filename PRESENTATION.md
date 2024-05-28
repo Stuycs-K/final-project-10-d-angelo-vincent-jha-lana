@@ -49,4 +49,28 @@ Finally, read off the intermediate ciphered text down the columns, starting with
 
 ## _Part Three: Cracking the Cipher_
 
-S
+
+The ADFGVX cipher was cracked by Lieutenant Georges Painvin of the French Cipher Bureau in June of 1918. He used techniques like cribbing and similarities in messages to do this.
+
+### Section 1: Challenges
+
+What makes this cipher so hard to crack is the fact that there is a transposition involved after the checkerboard subsitution. If only the substition was done, the cipher could be cracked using frequency analysis. The use of only 5 or 6 letters implies the checkerboard, and the use of the checkerboard, implies the splitting of the message into pairs, or digraphs. The frequency of these pairs, or digraphs, could then be anaylzed and compared to frequencies of plaintext letters and then matched. 
+
+However, because of the transposition that occurs, these digraphs are seperated from their pair. Here is a visual that shows this:
+
+After the checkerboard substitution, digraphs respresenting each aintext letter in the message are formed. The digraphs are placed into columns, which each pair in the digraph being placed in a different column.
+
+image
+
+
+When the columnar transposition occurs, all digraphs are separated
+and the frequencies will be fractioned, leading to an innacurate comparison...
+
+
+### Section 2: Process
+
+When he first encountered an encoded message, he noticed that there were only 5 letters present and based on this, assumed that there was a checkerboard type encoder involved. His next step, was to test out simple substituion ciphers within the checkerboard. When those tests came out negative, he knew that in addition to a checkerboard subtition, there was some sort of transposition.
+
+
+In late March, a large number of messages were sent and intercepted, which gave Painvin enough samples to try and find a pattern.
+
