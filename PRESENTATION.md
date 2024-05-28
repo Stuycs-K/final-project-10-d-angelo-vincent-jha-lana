@@ -46,3 +46,7 @@ Next, we number each letter of the keyword in alphabetical order, creating this:
 Finally, read off the intermediate ciphered text down the columns, starting with the column labeled `1` and ending with the column labeled `5`. Our final ciphered text, therefore, is `DDDG GDGA FDFG DFFA GFDV`.
 
 [^1]: These specific letters were deliberately chosen because they appear very dissimilar when written in Morse code, making communicating messages a lot easier and a lot less prone to human error. Initially, the headings of the Polybius square only had the letters `a`, `d`, `f`, `g`, and `x`. The `v` was added a few months later to allow for the encryption of the full alphabet and the digits `0` to `9` (in total, 36 characters).
+
+## _Part Three: Cracking the Cipher_
+
+S
