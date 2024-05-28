@@ -32,3 +32,7 @@ Today I tested the functions I coded yesterday and fixed syntax/logic issues inc
 ### 5/24
 
 Today I finished decode. I fixed my issues with the 2D array and instead used a 1D array to represent the polybius square. I did the second half of the decoder with the first key and the code can now succesfully return the original message.
+
+### 5/27
+
+Today I did more research about the history and the cracking of the cipher and plan to start adding to the presentation.
