@@ -18,6 +18,10 @@ Began PRESENTATION.md today. I entered a lot of the information about the histor
 
 Today I continued my work on PRESENTATION.md. I explained how one uses the ADFGVX cipher to encode messages using images, tables, and footnotes, among another things. I also included a little bit more about the history the cipher in my explanation.
 
+### 5/28
+
+Today I mostly researched Georges Painvin, the man who broke the cipher, and read about how he did it and just generally about his life. I plan to include much of the information I researched today at the end of our presentation. I also added some much needed elaborating comments to the Encode.java file.
+
 
 ## Lana Jha
 
