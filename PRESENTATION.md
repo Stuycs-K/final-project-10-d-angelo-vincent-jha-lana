@@ -46,3 +46,23 @@ Next, we number each letter of the keyword in alphabetical order, creating this:
 Finally, read off the intermediate ciphered text down the columns, starting with the column labeled `1` and ending with the column labeled `5`. Our final ciphered text, therefore, is `DDDG GDGA FDFG DFFA GFDV`.
 
 [^1]: These specific letters were deliberately chosen because they appear very dissimilar when written in Morse code, making communicating messages a lot easier and a lot less prone to human error. Initially, the headings of the Polybius square only had the letters `a`, `d`, `f`, `g`, and `x`. The `v` was added a few months later to allow for the encryption of the full alphabet and the digits `0` to `9` (in total, 36 characters).
+
+## _Section Four: Final Words_
+
+Nebel did not actually learn that his cipher had been broken during WW1 until the 1960s. A few years later, in 1968, Georges Painvin and Fritz Nebel, once opponents one half century ago, met in person to discuss their shared history. By this time, Nebel had stated that his original plan for the ADFGVX cipher involved a _double_ columnar transposition, but his superiors decided to go with the simpler single columnar transposition for practical purposes. In their meeting, Painvin admitted that, if the cipher had been implemented as originally planned, he surely would not have been able to crack it.
+
+### So what exactly is double columnar transposition, and why is it so much more challenging to crack?
+
+Double columnar transposition is just columnar transposition done two times. It can be done by using one key two times or by using two separate keys. Clearly, as it pertains to cryptographic complexity, this is the more appealing option.
+
+But according to American historian David Kahn, the ADFGVX cipher was _already_ "the toughest field cipher the world had yet seen," so it's also fair to see why the Germans didn't think the extra complexity was necessary.
+
+Unfortunately for the Germans, the French had, according to American cryptologist Herbert Yardley, "a first-rate analytical genius" named Georges Painvin, who "had a way of solving messages in code which resembled witchcraft."
+
+![alt text](https://raw.githubusercontent.com/Stuycs-K/final-project-10-d-angelo-vincent-jha-lana/presentation_conclusion/data/painvin.png)
+
+Although the ADFGVX cipher isn't remembered for being an incredibly powerful cipher, it still has its mark on history, as Painvin's work against it had major implications for the First World War. It's importance is perhaps best stated by Painvin's own words.
+
+The following is a segment from David Kahn's _The Codebreakers – The Story of Secret Writing_:
+
+![alt text](https://raw.githubusercontent.com/Stuycs-K/final-project-10-d-angelo-vincent-jha-lana/presentation_conclusion/data/kahn_paragraph.png)
