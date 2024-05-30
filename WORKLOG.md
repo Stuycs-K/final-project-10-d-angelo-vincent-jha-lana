@@ -48,3 +48,15 @@ Today I finished decode. I fixed my issues with the 2D array and instead used a 
 ### 5/27
 
 Today I did more research about the history and the cracking of the cipher and plan to start adding to the presentation.
+
+### 5/28
+
+Today I started the section on cracking the cipher for our presentation. I split the section into two parts: challenges and the process. I worked mostly on the challenges section.
+
+### 5/29
+
+Today I researched about how the cipher was actually cracked, but did not add to the presentation.
+
+### 5/30
+
+Today I finished the section of the presentation on how the cipher was cracked, and finalized both the challenges and the process parts of the section.
