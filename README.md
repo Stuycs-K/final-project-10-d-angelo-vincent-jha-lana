@@ -4,9 +4,9 @@
 
 ## Group Info
 
-Team Members: Vincent D'Angelo & Lana Jha  
+Team Members: **Vincent D'Angelo & Lana Jha**
 
-Team Name: VDALJH (aka Short[er] NBA Point Guards[^1])
+Team Name: **VDALJH** (aka Short[er] NBA Point Guards[^1])
 
 ## Overview
 
