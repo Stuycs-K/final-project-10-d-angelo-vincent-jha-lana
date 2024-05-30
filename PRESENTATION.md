@@ -56,21 +56,33 @@ The ADFGVX cipher was cracked by Lieutenant Georges Painvin of the French Cipher
 
 What makes this cipher so hard to crack is the fact that there is a transposition involved after the checkerboard subsitution. If only the substition was done, the cipher could be cracked using frequency analysis. The use of only 5 or 6 letters implies the checkerboard, and the use of the checkerboard, implies the splitting of the message into pairs, or digraphs. The frequency of these pairs, or digraphs, could then be anaylzed and compared to frequencies of plaintext letters and then matched. 
 
-However, because of the transposition that occurs, these digraphs are seperated from their pair. Here is a visual that shows this:
+However, because of the transposition that occurs, these digraphs are seperated from their pair in a different order. 
 
-After the checkerboard substitution, digraphs respresenting each aintext letter in the message are formed. The digraphs are placed into columns, which each pair in the digraph being placed in a different column.
-
-image
+After the checkerboard substitution, digraphs respresenting each plaintext letter in the message are formed. The digraphs are placed into columns, which each pair in the digraph being placed in a different column. Here is a visual that shows this:
 
 
-When the columnar transposition occurs, all digraphs are separated
-and the frequencies will be fractioned, leading to an innacurate comparison...
+|**C**    |**A**    |**R**    |**G**|**O**|
+|:---:|:---:|:---:|:---:|:---:|
+|A|F|A|D|A|
+|D|A|F|G|F|
+|D|X|A|F|A|
+|D|D|F|F|X|
+|G|F|X|F||
 
+When the columnar transposition occurs, all digraphs are separated. For example, in the image above, look at the digraph 'FG', which are in the second row and under the 'R' and 'G' column. In the image below, the 'FG' digraph has been separated, with the 'F' going from the 3rd column to the last, and the 'G' going from the 4th column to the 3rd to 'FA' after the transposition. If you look at other pairs, you can find a similar separation.
+
+|**A**    |**C**    |**G**    |**O**|**R**|
+|:---:|:---:|:---:|:---:|:---:|
+|F|A|D|A|A|
+|A|D|G|F|F|
+|X|D|F|A|A|
+|D|D|F|X|F|
+|F|G|F||X|
+
+As a result, the frequencies will be fractioned, leading to an inaccurate comparison of digraph frequencies to plaintext frequencies. 
 
 ### Section 2: Process
 
-When he first encountered an encoded message, he noticed that there were only 5 letters present and based on this, assumed that there was a checkerboard type encoder involved. His next step, was to test out simple substituion ciphers within the checkerboard. When those tests came out negative, he knew that in addition to a checkerboard subtition, there was some sort of transposition.
+When Painvin first encountered an encoded message, he noticed that there were only 5 letters present and based on this, assumed that there was a checkerboard type encoder involved. His next step, was to test out simple substituion ciphers within the checkerboard. When those tests came out negative, he knew that in addition to a checkerboard subtition, there was some sort of transposition. 
 
-
-In late March, a large number of messages were sent and intercepted, which gave Painvin enough samples to try and find a pattern.
-
+Eventually, Painvin found two ciphertexts that were very similar and intercepted at the same time, to be almost identical for the first several characters. He guessed that the plaintexts for both were also identical, at least in the beginning of the message. Using this assumption, this would mean that the top few entires of the columns for both messages are the same. If you look through the ciphertext and find places where they agree with each other, those places would be the beginnings of the columns. Then, you could find the column lengths from this, and divide the ciphertexts into columns of those lengths, with longer columns being at the beginning. Using both ciphertexts, if a column is long for both cipherboths, it would be placed in the beginning. If a column was short for both ciphertexts, it would be placed at the end. If the coluns from both don't agree in length, then it would go in the middle. From this approximate column placings, many orderings can be tried, and from these ordering, frequency analysis can be used on the digraphs that occur. Eventually, one combination will lead to the plaintext message.
