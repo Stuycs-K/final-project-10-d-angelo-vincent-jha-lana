@@ -24,7 +24,11 @@ Today I mostly researched Georges Painvin, the man who broke the cipher, and rea
 
 ### 5/29
 
-Today I wrote the conclusion part of our PRESENTATION.md, which was mostly historical. Now our presentation is almost completed; all that remains is the third section about how the cipher was broken. 
+Today I wrote the conclusion part of our PRESENTATION.md, which was mostly historical. Now our presentation is almost completed; all that remains is the third section about how the cipher was broken.
+
+### 5/30
+
+I wrote the README file today, explaining our project as well as how to use our code. This definitely may be added to later. I also created the makefile and input all the java-relevant commands. 
 
 
 ## Lana Jha
