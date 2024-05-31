@@ -13,8 +13,8 @@ public class Encode{
 
     String result = "";
 
-    keyword = keyword.toLowerCase();
-    message = message.toLowerCase();
+    keyword = keyword.toLowerCase().replaceAll(" ","");
+    message = message.toLowerCase().replaceAll(" ","");
 
     char[] keywordChars = keyword.toCharArray();
 
@@ -61,6 +61,7 @@ public class Encode{
   public static void secondstep(String keyword, String part1){
   // I use TreeMap for this because tree map sorts alphabetically based on the key, rearranging the entries in the process
     Map<String,String> treeMap = new TreeMap<>();
+    keyword = keyword.toLowerCase().replaceAll(" ","");
 
 
     for(int i = 0; i < keyword.length(); i++){

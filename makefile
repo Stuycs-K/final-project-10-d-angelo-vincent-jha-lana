@@ -5,4 +5,4 @@ Encode.class: Encode.java
 decode: 
 	@python3 decode.py decode $(ARGS)
 clean:
-	rm *.class
+	@rm *.class
