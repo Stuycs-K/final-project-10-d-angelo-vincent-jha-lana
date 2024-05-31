@@ -86,3 +86,23 @@ As a result, the frequencies will be fractioned, leading to an inaccurate compar
 When Painvin first encountered an encoded message, he noticed that there were only 5(eventually 6) letters present and based on this, assumed that there was a checkerboard type encoder involved. His next step, was to test out simple substituion ciphers within the checkerboard. When those tests came out negative, he knew that in addition to a checkerboard substition, there was some sort of transposition. 
 
 Eventually, Painvin found two ciphertexts that were very similar and intercepted at the same time, to be almost identical for the first several characters. He guessed that the plaintexts for both were also identical, at least in the beginning of the message. Using this assumption, this would mean that the top few entires of the columns for both messages are the same. If you look through the ciphertext and find places where they agree with each other, those places would be the beginnings of the columns. Then, you could find the column lengths from this, and divide the ciphertexts into columns of those lengths, with longer columns being at the beginning. Using both ciphertexts, if a column is long for both cipherboths, it would be placed in the beginning. If a column was short for both ciphertexts, it would be placed at the end. If the coluns from both don't agree in length, then it would go in the middle. From this approximate column placings, many orderings can be tried, and from these ordering, frequency analysis can be used on the digraphs that occur. Eventually, one combination will lead to the plaintext message.
+
+## _Section Four: Final Words_
+
+Nebel did not actually learn that his cipher had been broken during WW1 until the 1960s. A few years later, in 1968, Georges Painvin and Fritz Nebel, once opponents one half century ago, met in person to discuss their shared history. By this time, Nebel had stated that his original plan for the ADFGVX cipher involved a _double_ columnar transposition, but his superiors decided to go with the simpler single columnar transposition for practical purposes. In their meeting, Painvin admitted that, if the cipher had been implemented as originally planned, he surely would not have been able to crack it.
+
+### So what exactly is double columnar transposition, and why is it so much more challenging to crack?
+
+Double columnar transposition is just columnar transposition done two times. It can be done by using one key two times or by using two separate keys. Clearly, as it pertains to cryptographic complexity, this is the more appealing option.
+
+But according to American historian David Kahn, the ADFGVX cipher was _already_ "the toughest field cipher the world had yet seen," so it's also fair to see why the Germans didn't think the extra complexity was necessary.
+
+Unfortunately for the Germans, the French had, according to American cryptologist Herbert Yardley, "a first-rate analytical genius" named Georges Painvin, who "had a way of solving messages in code which resembled witchcraft."
+
+![alt text](https://raw.githubusercontent.com/Stuycs-K/final-project-10-d-angelo-vincent-jha-lana/presentation_conclusion/data/painvin.png)
+
+Although the ADFGVX cipher isn't remembered for being an incredibly powerful cipher, it still has its mark on history, as Painvin's work against it had major implications for the First World War. It's importance is perhaps best stated by Painvin's own words.
+
+The following is a segment from David Kahn's _The Codebreakers – The Story of Secret Writing_:
+
+![alt text](https://raw.githubusercontent.com/Stuycs-K/final-project-10-d-angelo-vincent-jha-lana/presentation_conclusion/data/kahn_paragraph.png)
