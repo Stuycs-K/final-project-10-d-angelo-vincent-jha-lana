@@ -60,3 +60,7 @@ Today I researched about how the cipher was actually cracked, but did not add to
 ### 5/30
 
 Today I finished the section of the presentation on how the cipher was cracked, and finalized both the challenges and the process parts of the section.
+
+### 5/31
+
+Today I added another section to the presentation on strengths and weaknesses of the cipher, merged all of my additions to the presentation on main, and tested out our makefile with our encode and decode files. 
