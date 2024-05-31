@@ -87,7 +87,15 @@ When Painvin first encountered an encoded message, he noticed that there were on
 
 Eventually, Painvin found two ciphertexts that were very similar and intercepted at the same time, to be almost identical for the first several characters. He guessed that the plaintexts for both were also identical, at least in the beginning of the message. Using this assumption, this would mean that the top few entires of the columns for both messages are the same. If you look through the ciphertext and find places where they agree with each other, those places would be the beginnings of the columns. Then, you could find the column lengths from this, and divide the ciphertexts into columns of those lengths, with longer columns being at the beginning. Using both ciphertexts, if a column is long for both cipherboths, it would be placed in the beginning. If a column was short for both ciphertexts, it would be placed at the end. If the coluns from both don't agree in length, then it would go in the middle. From this approximate column placings, many orderings can be tried, and from these ordering, frequency analysis can be used on the digraphs that occur. Eventually, one combination will lead to the plaintext message.
 
-## _Section Four: Final Words_
+## _Part Four: Strengths and Weaknesses_
+|**Strengths**    |**Weaknesses**    |
+|:---:|:---:|
+|difficult to decrypt without the key|vulnerable to plaintext and frequency analysis attacks|
+|versatile as it can be used for image and text encryption|vulnerable to brute force attacks when a key is repeated or small|
+|good level of security|should not be used to encrypt high security information, like for military or government purposes|
+
+
+## _Part Five: Final Words_
 
 Nebel did not actually learn that his cipher had been broken during WW1 until the 1960s. A few years later, in 1968, Georges Painvin and Fritz Nebel, once opponents one half century ago, met in person to discuss their shared history. By this time, Nebel had stated that his original plan for the ADFGVX cipher involved a _double_ columnar transposition, but his superiors decided to go with the simpler single columnar transposition for practical purposes. In their meeting, Painvin admitted that, if the cipher had been implemented as originally planned, he surely would not have been able to crack it.
 
