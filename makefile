@@ -3,4 +3,4 @@ encode: Encode.class
 Encode.class: Encode.java
 	@javac Encode.java
 clean:
-	rm *.class
+	@rm *.class
