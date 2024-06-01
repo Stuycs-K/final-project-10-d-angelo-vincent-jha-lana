@@ -30,6 +30,9 @@ Today I wrote the conclusion part of our PRESENTATION.md, which was mostly histo
 
 I wrote the README file today, explaining our project as well as how to use our code. This definitely may be added to later. I also created the makefile and input all the java-relevant commands. 
 
+### 5/31 
+
+Today I changed my Encode program a bit so that it could properly handle spaces in the input. I also began drafting the TryHackMe room. 
 
 ## Lana Jha
 
