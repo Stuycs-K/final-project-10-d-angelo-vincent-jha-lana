@@ -22,7 +22,7 @@ make encode ARGS="KEYWORD_1 KEYWORD_2 PLAINTEXT"
 
 The following command will decode ciphered text using the two supplied keywords, and print out the plaintext:
 ```
-make decode ARGS="KEYWORD_1 KEYWORD_2 PLAINTEXT"
+make decode ARGS="KEYWORD_1 KEYWORD_2 CIPHERTEXT"
 ```
 
 [^1]: A quick explanation: Vincent's last name, D'Angelo, is the first name of a short[er] NBA point guard named D'Angelo Russell. Lana's last name, Jha, is the first name of a short[er] NBA point guard named J(h)a Morant.

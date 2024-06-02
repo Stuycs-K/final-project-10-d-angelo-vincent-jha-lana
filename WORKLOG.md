@@ -34,6 +34,10 @@ I wrote the README file today, explaining our project as well as how to use our 
 
 Today I changed my Encode program a bit so that it could properly handle spaces in the input. I also began drafting the TryHackMe room. 
 
+### 6/2
+
+I finished writing the TryHackMe room this weekend. All I have to do is actually create the room and put everything I wrote in it. I also did some more testing, and noticed some apparent errors that we'll work on later this week. 
+
 ## Lana Jha
 
 ### 5/22
