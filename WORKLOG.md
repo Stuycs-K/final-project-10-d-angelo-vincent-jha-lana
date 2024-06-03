@@ -18,6 +18,25 @@ Began PRESENTATION.md today. I entered a lot of the information about the histor
 
 Today I continued my work on PRESENTATION.md. I explained how one uses the ADFGVX cipher to encode messages using images, tables, and footnotes, among another things. I also included a little bit more about the history the cipher in my explanation.
 
+### 5/28
+
+Today I mostly researched Georges Painvin, the man who broke the cipher, and read about how he did it and just generally about his life. I plan to include much of the information I researched today at the end of our presentation. I also added some much needed elaborating comments to the Encode.java file.
+
+### 5/29
+
+Today I wrote the conclusion part of our PRESENTATION.md, which was mostly historical. Now our presentation is almost completed; all that remains is the third section about how the cipher was broken.
+
+### 5/30
+
+I wrote the README file today, explaining our project as well as how to use our code. This definitely may be added to later. I also created the makefile and input all the java-relevant commands. 
+
+### 5/31 
+
+Today I changed my Encode program a bit so that it could properly handle spaces in the input. I also began drafting the TryHackMe room. 
+
+### 6/2
+
+I finished writing the TryHackMe room this weekend. All I have to do is actually create the room and put everything I wrote in it. I also did some more testing, and noticed some apparent errors that we'll work on later this week. 
 
 ## Lana Jha
 
@@ -36,3 +55,19 @@ Today I finished decode. I fixed my issues with the 2D array and instead used a 
 ### 5/27
 
 Today I did more research about the history and the cracking of the cipher and plan to start adding to the presentation.
+
+### 5/28
+
+Today I started the section on cracking the cipher for our presentation. I split the section into two parts: challenges and the process. I worked mostly on the challenges section.
+
+### 5/29
+
+Today I researched about how the cipher was actually cracked, but did not add to the presentation.
+
+### 5/30
+
+Today I finished the section of the presentation on how the cipher was cracked, and finalized both the challenges and the process parts of the section.
+
+### 5/31
+
+Today I added another section to the presentation on strengths and weaknesses of the cipher, merged all of my additions to the presentation on main, and tested out our makefile with our encode and decode files. 
