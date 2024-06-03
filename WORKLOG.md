@@ -71,3 +71,9 @@ Today I finished the section of the presentation on how the cipher was cracked, 
 ### 5/31
 
 Today I added another section to the presentation on strengths and weaknesses of the cipher, merged all of my additions to the presentation on main, and tested out our makefile with our encode and decode files. 
+
+### 6/2
+Today I tested out and tried to fix a bug that occured in decode, but I am not sure where the error has occured. 
+
+### 6/3
+Today I fixed the error I was having yesterday with the polybius square, and I started working on another error with the columns.
