@@ -22,9 +22,9 @@ return string
 '''Takes arguments from decode and returns the final message'''
 def decode(keyword1,keyword2,encoded_message):
     array_of_columns = encoded_message.split()
-    print(array_of_columns)
+    # print(array_of_columns)
     arranged_columns = rearrange_columns(array_of_columns, keyword2)
-    print(arranged_columns)
+    # print(arranged_columns)
     pairs = get_pairs(arranged_columns)
     polybius_square = create_square(keyword1)
     message = get_message(polybius_square,pairs)
@@ -33,13 +33,13 @@ def decode(keyword1,keyword2,encoded_message):
 
 def rearrange_columns(original_columns, keyword2):
     alphabetized = ''.join(sorted(keyword2))
-    print(alphabetized)
-    print(alphabetized)
+    # print(alphabetized)
+    # print(alphabetized)
     position_array=[]
 
     for i in range(len(alphabetized)):
-        print("position array:")
-        print(position_array)
+        # print("position array:")
+        # print(position_array)
         count = 0
         counter = True
         while counter==True:
@@ -49,7 +49,7 @@ def rearrange_columns(original_columns, keyword2):
             else:
                 count+=1
 
-    print(position_array)
+    # print(position_array)
     rearranged = ['empty']*len(position_array)
     for i in range(len(position_array)):
         # print(i)
