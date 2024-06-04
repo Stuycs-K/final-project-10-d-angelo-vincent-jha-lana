@@ -81,3 +81,6 @@ Today I tested out and tried to fix a bug that occured in decode, but I am not s
 
 ### 6/3
 Today I fixed the error I was having yesterday with the polybius square, and I started working on another error with the columns.
+
+### 6/4 
+Today I fixed the error I was working on yesterday with the columns. It had to do with a difference in the encoder and decoder when doing the columnar transposition, specifically with duplicate letters in the secondkey. 
