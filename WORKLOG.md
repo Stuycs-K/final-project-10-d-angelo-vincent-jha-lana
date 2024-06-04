@@ -42,6 +42,10 @@ I finished writing the TryHackMe room this weekend. All I have to do is actually
 
 I completed the entire TryHackMe room today. I also read over all our presentation and readme to make sure it all sounded good. I feel at this point we are wrapping up, and putting the finishing touches on everything before we record the video.
 
+### 6/4
+
+Day off today, so I just read through the TryHackMe room and edited it a bit.
+
 ## Lana Jha
 
 ### 5/22
