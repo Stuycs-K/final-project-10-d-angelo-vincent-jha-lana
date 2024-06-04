@@ -22,7 +22,9 @@ return string
 '''Takes arguments from decode and returns the final message'''
 def decode(keyword1,keyword2,encoded_message):
     array_of_columns = encoded_message.split()
+    # print(array_of_columns)
     arranged_columns = rearrange_columns(array_of_columns, keyword2)
+    # print(arranged_columns)
     pairs = get_pairs(arranged_columns)
     polybius_square = create_square(keyword1)
     message = get_message(polybius_square,pairs)
@@ -32,19 +34,22 @@ def decode(keyword1,keyword2,encoded_message):
 def rearrange_columns(original_columns, keyword2):
     alphabetized = ''.join(sorted(keyword2))
     # print(alphabetized)
+    # print(alphabetized)
     position_array=[]
-    
-    for a in alphabetized:
+
+    for i in range(len(alphabetized)):
+        # print("position array:")
+        # print(position_array)
         count = 0
         counter = True
         while counter==True:
-            if a == keyword2[count]:
+            if alphabetized[i] == keyword2[count] and (i == 0 or count != position_array[i-1]):
                 position_array.append(count)
                 counter = False
             else:
                 count+=1
-    # print(position_array)
 
+    # print(position_array)
     rearranged = ['empty']*len(position_array)
     for i in range(len(position_array)):
         # print(i)
@@ -83,6 +88,7 @@ def create_square(keyword1):
         if count <1:
             final_string += total_string[i]
    
+    # print(final_string)
     #final_string has rest of alphabet
     polybius_square = [""]*6#creates a 6x6 double array
     for i in range(math.floor(len(keyword)/6)):
@@ -93,13 +99,16 @@ def create_square(keyword1):
         polybius_square[math.floor(len(keyword)/6)] = keyword[math.floor(len(keyword)/6)*6:]
         polybius_square[math.floor(len(keyword)/6)] += final_string[0:6 - mod]
     final_string = final_string[6-mod:]
-
+    # print(final_string)
     final_rows=[]
+    # print(polybius_square)
     #splitting final_string into array of 6's
     for x in range(0,len(final_string),6):
         final_rows.append(final_string[x:x+6])
+
+    # print(final_rows)
     for i in range(math.ceil(len(keyword)/6),6,1):
-        polybius_square[i] = final_rows[i-2]
+        polybius_square[i] = final_rows[i-math.ceil(len(keyword)/6)]
 
     return polybius_square
 
