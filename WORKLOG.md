@@ -38,6 +38,10 @@ Today I changed my Encode program a bit so that it could properly handle spaces 
 
 I finished writing the TryHackMe room this weekend. All I have to do is actually create the room and put everything I wrote in it. I also did some more testing, and noticed some apparent errors that we'll work on later this week. 
 
+### 6/3
+
+I completed the entire TryHackMe room today. I also read over all our presentation and readme to make sure it all sounded good. I feel at this point we are wrapping up, and putting the finishing touches on everything before we record the video.
+
 ## Lana Jha
 
 ### 5/22
