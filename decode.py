@@ -27,32 +27,28 @@ def decode(keyword1,keyword2,encoded_message):
     print(arranged_columns)
     pairs = get_pairs(arranged_columns)
     polybius_square = create_square(keyword1)
-    print(polybius_square)
-    print(pairs)
-    # message = get_message(polybius_square,pairs)
-    # return(message)
+    message = get_message(polybius_square,pairs)
+    return(message)
     # return("hi")
 
 def rearrange_columns(original_columns, keyword2):
     alphabetized = ''.join(sorted(keyword2))
     print(alphabetized)
-    # print(alphabetized)
+    print(alphabetized)
     position_array=[]
 
-
-    #first check if there are duplicates and make a list that has those duplicates. 
-    duplicates = []
-    
-    for a in alphabetized:
+    for i in range(len(alphabetized)):
+        print("position array:")
+        print(position_array)
         count = 0
         counter = True
         while counter==True:
-            if a == keyword2[count] and a !=keyword2[position_array[alphabetized.index(a)]]:
+            if alphabetized[i] == keyword2[count] and (i == 0 or count != position_array[i-1]):
                 position_array.append(count)
                 counter = False
             else:
                 count+=1
-    # print(position_array)
+
     print(position_array)
     rearranged = ['empty']*len(position_array)
     for i in range(len(position_array)):
