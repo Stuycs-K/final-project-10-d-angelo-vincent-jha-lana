@@ -28,15 +28,15 @@ Today I wrote the conclusion part of our PRESENTATION.md, which was mostly histo
 
 ### 5/30
 
-I wrote the README file today, explaining our project as well as how to use our code. This definitely may be added to later. I also created the makefile and input all the java-relevant commands. 
+I wrote the README file today, explaining our project as well as how to use our code. This definitely may be added to later. I also created the makefile and input all the java-relevant commands.
 
-### 5/31 
+### 5/31
 
-Today I changed my Encode program a bit so that it could properly handle spaces in the input. I also began drafting the TryHackMe room. 
+Today I changed my Encode program a bit so that it could properly handle spaces in the input. I also began drafting the TryHackMe room.
 
 ### 6/2
 
-I finished writing the TryHackMe room this weekend. All I have to do is actually create the room and put everything I wrote in it. I also did some more testing, and noticed some apparent errors that we'll work on later this week. 
+I finished writing the TryHackMe room this weekend. All I have to do is actually create the room and put everything I wrote in it. I also did some more testing, and noticed some apparent errors that we'll work on later this week.
 
 ### 6/3
 
@@ -45,6 +45,10 @@ I completed the entire TryHackMe room today. I also read over all our presentati
 ### 6/4
 
 Day off today, so I just read through the TryHackMe room and edited it a bit.
+
+### 6/5
+
+Today I edited the README and added some further instructions for how to format the input when one tries to decode.
 
 ## Lana Jha
 
@@ -78,13 +82,13 @@ Today I finished the section of the presentation on how the cipher was cracked, 
 
 ### 5/31
 
-Today I added another section to the presentation on strengths and weaknesses of the cipher, merged all of my additions to the presentation on main, and tested out our makefile with our encode and decode files. 
+Today I added another section to the presentation on strengths and weaknesses of the cipher, merged all of my additions to the presentation on main, and tested out our makefile with our encode and decode files.
 
 ### 6/2
-Today I tested out and tried to fix a bug that occured in decode, but I am not sure where the error has occured. 
+Today I tested out and tried to fix a bug that occured in decode, but I am not sure where the error has occured.
 
 ### 6/3
 Today I fixed the error I was having yesterday with the polybius square, and I started working on another error with the columns.
 
-### 6/4 
-Today I fixed the error I was working on yesterday with the columns. It had to do with a difference in the encoder and decoder when doing the columnar transposition, specifically with duplicate letters in the secondkey. 
+### 6/4
+Today I fixed the error I was working on yesterday with the columns. It had to do with a difference in the encoder and decoder when doing the columnar transposition, specifically with duplicate letters in the secondkey.
