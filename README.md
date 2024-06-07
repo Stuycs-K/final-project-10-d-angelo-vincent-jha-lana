@@ -22,7 +22,7 @@ make encode ARGS="KEYWORD_1 KEYWORD_2 PLAINTEXT"
 
 The following command will decode ciphered text using the two supplied keywords, and print out the plaintext:
 ```
-make decode ARGS="KEYWORD_1 KEYWORD_2 CIPHERTEXT"
+make decode ARGS="KEYWORD_1 KEYWORD_2 'CIPHERTEXT'"
 ```
 Note that the `CIPHERTEXT` has to be formatted with the separating spaces the encoding algorithm automatically adds. 
 
