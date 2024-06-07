@@ -92,3 +92,9 @@ Today I fixed the error I was having yesterday with the polybius square, and I s
 
 ### 6/4
 Today I fixed the error I was working on yesterday with the columns. It had to do with a difference in the encoder and decoder when doing the columnar transposition, specifically with duplicate letters in the secondkey.
+
+# Resources/References
+- _The American Black Chamber_ (1931) by Herbert Yardley
+- _Secret History - The Story of Cryptology_ (2013) by Craig Bauer
+- _The Codebreakers - The Story of Secret Writing_ (1967) by David Kahn
+- [Chris Christensen from Northern Kentucky University](https://www.nku.edu/~christensen/1901cscmat483%20section%2012%20ADFGVX.pdf)
