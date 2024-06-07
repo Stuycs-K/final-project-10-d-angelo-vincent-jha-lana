@@ -10,7 +10,7 @@
 
 + The man tasked with the job was Signal Corps Lieutenant **Fritz Nebel** (1891–1977), and he soon developed what he called the _Geheimschrift der Funker 1918_ (in short _GedeFu 18_).  
 
-+ By June, the cipher was being used to blare messages from German radio messages all over the Western Front. The Germans prided themselves on their invention, and believed it was **uncrackable**.  
++ By June, the cipher was being used to blare messages from German radio stations all over the Western Front. The Germans prided themselves on their invention, and believed it was **uncrackable**.  
 
 ## _Part Two: The Cipher_
 
@@ -26,7 +26,7 @@ Each letter of our plaintext message is then encrypted as the two "code" letters
 
 ### Section Two: Columnar Transposition
 
-Now, we need our second keywork, so let's choose `short`. That intermediate ciphered text we just created in the last step is written in rows beneath `short`. We now have this:
+Now, we need our second keyword, so let's choose `short`. That intermediate ciphered text we just created in the last step is written in rows beneath `short`. We now have this:
 |**S**    |**H**    |**O**    |**R**|**T**|
 |:---:|:---:|:---:|:---:|:---:|
 |D|D|G|F|G|
