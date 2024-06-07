@@ -50,6 +50,10 @@ Day off today, so I just read through the TryHackMe room and edited it a bit.
 
 Today I edited the README and added some further instructions for how to format the input when one tries to decode.
 
+### 6/7 
+
+Today was a big day for finishing touches. I read through PRESENTATION.md and fixed some spelling mistakes. I also added the TryHackMe room to the project officially, by adding a link to it in our README. I also created a references/resources section into the WORKLOG. 
+
 ## Lana Jha
 
 ### 5/22
