@@ -85,16 +85,29 @@ Today I finished the section of the presentation on how the cipher was cracked, 
 Today I added another section to the presentation on strengths and weaknesses of the cipher, merged all of my additions to the presentation on main, and tested out our makefile with our encode and decode files.
 
 ### 6/2
+
 Today I tested out and tried to fix a bug that occured in decode, but I am not sure where the error has occured.
 
 ### 6/3
+
 Today I fixed the error I was having yesterday with the polybius square, and I started working on another error with the columns.
 
 ### 6/4
+
 Today I fixed the error I was working on yesterday with the columns. It had to do with a difference in the encoder and decoder when doing the columnar transposition, specifically with duplicate letters in the secondkey.
+
+### 6/5 
+
+Today I worked on writing the script that we will use in our presentation.
+
+### 6/7
+
+Today I cleaned up the code in the decode.py file and added comments to the functions.
 
 # Resources/References
 - _The American Black Chamber_ (1931) by Herbert Yardley
 - _Secret History - The Story of Cryptology_ (2013) by Craig Bauer
 - _The Codebreakers - The Story of Secret Writing_ (1967) by David Kahn
 - [Chris Christensen from Northern Kentucky University](https://www.nku.edu/~christensen/1901cscmat483%20section%2012%20ADFGVX.pdf)
+- [Cripto Corner](https://crypto.interactive-maths.com/adfgvx-cipher.html)
+- [ADFGVX Cipher Decoder](https://www.dcode.fr/adfgvx-cipher)
