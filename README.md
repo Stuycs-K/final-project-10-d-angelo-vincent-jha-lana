@@ -12,6 +12,10 @@ Team Name: **VDALJH** (aka Short[er] NBA Point Guards[^1])
 
 Our project discusses the ADFGVX cipher, a cipher developed and utilized solely by the Germans during the First World War. In our presentation we will walk through the implementation of ADFGVX, as well as how it was eventually cracked and rendered insecure. Along the way, we'll discuss the historical context and cryptographic importance of the cipher. To accompany our presentation, we've created an encoder and decoder, and an accompanying TryHackMe room for our viewers to test their understanding.
 
+[Presentation Video](https://drive.google.com/file/d/1OafsV-P2sRipV37MEipI77M_BSQEEydn/view?usp=sharing)  
+
+[Presentation Slides](https://github.com/Stuycs-K/final-project-10-d-angelo-vincent-jha-lana/blob/main/PRESENTATION.mdhttps://github.com/Stuycs-K/final-project-10-d-angelo-vincent-jha-lana/blob/main/PRESENTATION.md)
+
 ## Instructions
 
 The input for the ADFGVX cipher requires two keywords and one plaintext message. After cloning our repository, the following command will apply the cipher to the plaintext and print the ciphered text:
