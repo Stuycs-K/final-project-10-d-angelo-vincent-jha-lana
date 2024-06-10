@@ -14,7 +14,7 @@ Our project discusses the ADFGVX cipher, a cipher developed and utilized solely 
 
 [Presentation Video](https://drive.google.com/file/d/1OafsV-P2sRipV37MEipI77M_BSQEEydn/view?usp=sharing)  
 
-[Presentation Slides](https://github.com/Stuycs-K/final-project-10-d-angelo-vincent-jha-lana/blob/main/PRESENTATION.mdhttps://github.com/Stuycs-K/final-project-10-d-angelo-vincent-jha-lana/blob/main/PRESENTATION.md)
+[Presentation Slides](PRESENTATION.md)
 
 ## Instructions
 
