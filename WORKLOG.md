@@ -50,9 +50,13 @@ Day off today, so I just read through the TryHackMe room and edited it a bit.
 
 Today I edited the README and added some further instructions for how to format the input when one tries to decode.
 
-### 6/7 
+### 6/7
 
-Today was a big day for finishing touches. I read through PRESENTATION.md and fixed some spelling mistakes. I also added the TryHackMe room to the project officially, by adding a link to it in our README. I also created a references/resources section into the WORKLOG. 
+Today was a big day for finishing touches. I read through PRESENTATION.md and fixed some spelling mistakes. I also added the TryHackMe room to the project officially, by adding a link to it in our README. I also created a references/resources section into the WORKLOG.
+
+### 6/9
+
+We recorded the video today and added it to the repository. 
 
 ## Lana Jha
 
@@ -100,7 +104,7 @@ Today I fixed the error I was having yesterday with the polybius square, and I s
 
 Today I fixed the error I was working on yesterday with the columns. It had to do with a difference in the encoder and decoder when doing the columnar transposition, specifically with duplicate letters in the secondkey.
 
-### 6/5 
+### 6/5
 
 Today I worked on writing the script that we will use in our presentation.
 
